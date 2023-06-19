@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: local
+    include: secret
+
+logging:
+  level:
+    org:
+      springframework:
+        orm:
+          jpa: DEBUG
